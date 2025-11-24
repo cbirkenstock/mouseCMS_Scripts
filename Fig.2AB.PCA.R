@@ -41,8 +41,10 @@ extractTop100Loadings <- function(pc, map) {
   }
 }
 
+#Much of this code remains unchanged -- the largest differences are calling the new function 
+#above as well as adding the percent weights to PC1 and PC2
 # ENTER YOUR DIRECTORY PATH---------
-PathToData="/Users/colinbirkenstock/Downloads/mouseCMS_Scripts"
+PathToData=""
 
 # define function-----------
 iClassification.class.data.to.subset.cols <- function (data, col.name, values){

@@ -13,6 +13,9 @@ makeRowsIdentical <- function(original, updates) {
   updates
 }
 
+
+#Much of this is the same data pipeline as created by atorang -- it has been modified to allow us to 
+#integrate our data into their pre-existing body of data
 PathToData=""
 originalData= get(load(paste0(PathToData,"/GSE223323/organoids.RData"))) 
 
@@ -41,7 +44,6 @@ newColumns = data.frame(unstranded)
 
 newColumns <- newColumns[ !duplicated(sub("\\..*", "", rownames(newColumns))), , drop = FALSE ]
 rownames(newColumns)=gsub("\\..*","",rownames(newColumns))
-
 
 newColumns <- makeRowsIdentical(raw, newColumns)
 

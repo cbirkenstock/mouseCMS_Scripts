@@ -1,3 +1,5 @@
+#This is a pared down version of the original version created by atorang
+
 #install anaconda 
 conda create -n mouseGenomes python=3.6
 
