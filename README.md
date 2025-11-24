@@ -1,3 +1,6 @@
+# Note
+This is a forked repository -- the original can be found at https://github.com/atorang/mouseCMS_Scripts. The modificaitons here have to do with adding additional data to create an updated PCA plot. Three commits are part of the modifications and their hashes are 94f78b21c02f5d26c8560e2b2ba7ea66bab6f76e, 71ee43bd7bc4f503ab32c094fd16d8eb606ccc0d, and 0561b8df7cf60b71e94c118fea758bcc6078b092. 
+
 # mouseCMS_Scripts
 Scripts for regenerating figures in the paper entitled:"Enterocyte-like differentiation defines the metabolic phenotype of CMS3 colorectal cancers and provides a therapeutic vulnerability."
 Download data from https://www.synapse.org/#!Synapse:syn53040345/ to run the scripts.
